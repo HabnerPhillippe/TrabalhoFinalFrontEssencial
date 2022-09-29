@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/icone.png">
+  <!-- CSS BOOSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- JS BOOSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"
+    defer></script>
+  <!----ICONS ---->
+  <i class="bi bi-clipboard-data"></i>
+  <i class="bi bi-cloud-arrow-up"></i>
+  <i class="bi bi-pc-display"></i>
+  <i class="bi bi-whatsapp"></i>
+  <i class="bi bi-phone"></i>
+  <i class="bi bi-moon-fill"></i>
+
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./form.html">
+  <script src="./js/form.js" defer></script>
+
+
+  <title>Otter Codes</title>
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-lightn">
+      <div class="container-fluid teste">
+
+        <a class="navbar-brand" href="index.html"><img style="float:inline-start" src="img/logovertical.png" alt="Logo"
+            href="index.html" width="100px" height="60px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Serviços
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="desenvolv-web.html">Desenvolvimento Web</a></li>
+                <li><a class="dropdown-item" href="desenvolv-mobile.html">Desenvolvimento Mobile</a></li>
+                <li><a class="dropdown-item" href="banco-de-dados.html">Integração com Banco de Dados</a></li>
+                <li><a class="dropdown-item" href="consultoria.html">Consultoria de Serviços de TI</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Fale Conosco</a>
+            </li>
+
+          </ul>
+          <form class="d-flex">
+
+            <!-- Botao de mudar o estilo -->
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onclick="modoEscuro()">
+              <label class="form-check-label" for="flexSwitchCheckDefault" texto></label>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-moon-fill escuro" viewBox="0 0 16 16">
+                <path
+                  d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+              </svg>
+            </div>
+
+            <a href="#contato" class="btn btn-outline-success" role="button" id="btn-whatsapp">Whatsapp
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-whatsapp icons" viewBox="0 0 16 16">
+                <path
+                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+              </svg></button></a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    </nav>
+  </header>
+  <main>
+    <div class="container-fluid p-5">
+      <div class="row">
+        <div class="col-12 col-md-6 textos">
+
+          <i class="bi bi-check-circle"></i>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h1>Consultoria e
+            <h1>outsourcing de <b>T.I </b></h1>
+            </br>
+            <h6>Alocação de profissionais de qualidade,</h6>
+            <h6>Terceirize a sua T.I conosco, garantimos performance!</h6>
+            </br>
+
+            <a href="#contato" class="btn btn-light" role="button">Orçamento</button></a>
+
+        </div>
+        <div class="imagem col-12 col-md-6 "><img src="img/imageminicio.png" width="500px" height="300px"></div>
+      </div>
+    </div>
+  </main>
+  </br>
+  <br>
+
+  <h3><b>Serviços</b></h3>
+  <h5>
+    Tudo que você precisa em T.I.
+  </h5>
+  </br>
+  </br>
+  <div class="container" id="container2">
+    <div class="row">
+      <div class="col-12 col-md-6 parte-do-meio">
+        <br>
+        <a class="dropdown-item" href="desenvolv-web.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-pc-display"
+          viewBox="0 0 16 16">
+          <path
+            d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z" />
+        </svg>
+        <br>
+        <br>
+        <h4>Desenvolvimento Web</h4>
+        <br>
+        <i class="bi bi-check" style="font-size: 20px;">Sistema Web;</i>
+        <br>
+        <i class="bi bi-check" style="font-size: 20px;">Aplicações Web Completas;</i>
+        <br>
+        <i class="bi bi-check" style="font-size: 20px;">Integração Automática.</i>
+        <br>
+      </a>
+      </div>
+      <div class="col-12 col-md-6 lateral">
+        <i class="bi bi-star"></i>
+        </br>
+        <a class="dropdown-item" href="desenvolv-mobile.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-phone"
+          viewBox="0 0 16 16">
+          <path
+            d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+          <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+        </svg>
+        <br>
+        <br>
+        <h4>Desenvolvimento Mobile</h4>
+        <br>
+        <i class="bi bi-check" style="font-size: 20px;">Sistema Mobile;</i>
+        <br>
+        <i class="bi bi-check" style="font-size: 20px;">Multiplataforma;</i>
+        <br>
+        <i class="bi bi-check" style="font-size: 20px;">Tecnologia Atualizada.</i>
+        </a>
+        <br>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="container3">
+    <div class="row">
+      <div class="col-12 col-md-6 esquerda">
+        <br>
+        <a class="dropdown-item" href="banco-de-dados.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cloud-arrow-up"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M7.646 5.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 6.707V10.5a.5.5 0 0 1-1 0V6.707L6.354 7.854a.5.5 0 1 1-.708-.708l2-2z" />
+          <path
+            d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+        </svg>
+        <br>
+        <br>
+        <h4>Integração com Banco de Dados</h4>
+        <br>
+        <i class="bi bi-check" style="font-size: 20px;">Sistema Completo;</i>
+        <br>
+        <i class="bi bi-check" style="font-size: 20px;">Relatórios;</i>
+        <br>
+        <i class="bi bi-check" style="font-size: 20px;">Performance.</i>
+        <br>
+        </a>
+      </div>
+
+      <div class="col-12 col-md-6 direita">
+        <i class="bi bi-star"></i>
+        </br>
+        <a class="dropdown-item" href="consultoria.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-clipboard-data"
+          viewBox="0 0 16 16">
+          <path
+            d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z" />
+          <path
+            d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+          <path
+            d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+        </svg>
+        <br>
+        <br>
+        <h4>Consultoria de Serviços de TI</h4>
+        <br>
+        <i class="bi bi-check" style="font-size: 20px;">Compreensão da organização e <br> do ambiente subjacente;</i>
+        <br>
+        <i class="bi bi-check" style="font-size: 20px;">Aconselhamento sobre soluções e <br> serviços de TI;</i>
+        <br>
+        <i class="bi bi-check" style="font-size: 20px;">Gerenciamento e supervisão do <br> processo de implementação dos <br> sistemas.</i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container-3 p-4">
+    <div class="row">
+      <div class="col-12 col-md-6 time"><img src="img/time.png" width="500px" height="380px"></div>
+      <div class="col-12 col-md-6">
+        <i class="bi bi-check-circle"></i>
+
+        <br>
+
+        <h2 id="quemsomos"><b>Quem somos?</b></h2>
+        </br>
+        <p>
+          Somos uma empresa de consultoria de T.I. com mais de 10 anos de mercado, nosso foco é ajudar empresas de T.I.
+          a reduzir seus custos, ter segurança e maior escalabilidade.
+          Ajudamos as empresas a fazerem a transformação digital, auxiliando na implementação correta do Scrum, além da
+          criação de um ambiente novo e ágil.
+          Damos consultoria especializada para empresas de T.I., disponibilizamos um arquiteto de soluções dentro da
+          empresa para identificar problemas e gargalos, fazendo assim um plano de ação ao longo dos meses.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <h2 id="contato"><b>Fale Conosco </b></h2>
+  <br>
+  
+  <!-- Formulário "Fale Conosco" -->
+  <div class="container-fluid formulario parallax">
+    <form>
+      <br />
+      <!-- Label e input do nome -->
+      <div class="form-outline mb-4">
+        <label class="form-label" for="form4Example1">Nome</label>
+        <input type="text" id="name" placeholder="Digite seu nome" class="form-control" required />
+      </div>
+
+      <!-- Label e imput do email -->
+      <div class="form-outline mb-4">
+        <label class="form-label" for="form4Example2">Email</label>
+        <input type="email" id="email" placeholder="Digite seu email" class="form-control" required />
+      </div>
+
+      <!-- Label e input da mensagem -->
+      <div class="form-outline mb-4">
+        <label class="form-label" for="form4Example3">Mensagem</label>
+        <textarea class="form-control" placeholder="Digite sua mensagem" id="mensagem" rows="4"
+          required></textarea>
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-light btn-block mb-4" onclick="enviar()">Enviar</button>
+    </form>
+  </div>
+  <br>
+  <br>
+  <br>
+  <!-- Footer -->
+  <footer class="text-center text-lg-start footerbackground text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i><img src="./img/logohorizontal.png" alt="ottercodes logo"
+                style="max-width:100%; max-height: 200px; margin-left: -35px;">
+            </h6>
+            <p class="sobrenos">
+              Otter Codes - Consultoria de T.I.
+
+              Nosso foco é ajudar empresas de T.I. a reduzir seus custos, ter segurança e maior escalabilidade.
+
+              Scrum e metodologia ágil, softwares customizados, devops, e treinamentos.
+
+            </p>
+          </div>
+          <div class="servicos col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Serviços
+            </h6>
+            <p>
+              <a href="desenvolv-web.html" class="text-reset">Desenvolvimento Web</a>
+            </p>
+            <p>
+              <a href="desenvolv-mobile.html" class="text-reset">Desenvolvimento mobile</a>
+            </p>
+            <p>
+              <a href="banco-de-dados.html" class="text-reset">Integração com banco de dados</a>
+            </p>
+            <p>
+              <a href="consultoria.html" class="text-reset">Consultoria de serviços de TI</a>
+            </p>
+          </div>
+          <div class="links col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Links
+            </h6>
+            <p>
+              <a href="#" class="text-reset">Inicio</a>
+            </p>
+            <p>
+              <a href="#contato" class="text-reset">Contato</a>
+            </p>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="contatos text-uppercase fw-bold mb-4">Contato</h6>
+            <p><i class="fas fa-home me-3"></i> 📌​ São Paulo, SP 10012, BR</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              📧​ contato@ottercodes.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i>📞 +55 555 555 55</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+</body>
+
+</html>
