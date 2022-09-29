@@ -1,0 +1,128 @@
+#titulo, h6 {
+    text-align: center;
+}
+
+#titulo {
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+/* 
+#subtitulo {
+    margin-top: 30px;
+} */
+
+h1 {
+    color: #35404e;
+    margin-top: 50px;
+}
+
+h6 {
+    color: #8492a6;
+}
+
+main img {
+    width: 570px;
+    height: 600px; 
+}
+
+.bi-check-circle {
+    font-size: 40px;
+    margin-left: 100px;
+    color: #156aa6;
+}
+
+main h3 {
+    margin-left: 10px;
+}
+
+.textos h6 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+#venda1 {
+    margin-left: 70px;
+}
+
+#venda2 {
+    margin-left: 80px;
+}
+
+#venda3 {
+    margin-left: 40px;
+}
+
+.col-6 h3 {
+    display: inline;
+}
+
+.textos {
+    margin-top: 200px;
+}
+
+.textos h3 {
+    color: #35404e;
+    font-size: 40px;
+}
+
+#container2 {
+    margin-bottom: 100px;
+}
+
+#container2 h1 {
+    color: #003988;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+}
+
+#container2 h2 {
+    margin-top: 30px;
+}
+
+.col-4 {
+    box-shadow: 1px 1px 5px lightslategray;
+    height: 480px;
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0px 5px;
+}
+
+.col-4 button {
+    margin-top: 80px;
+}
+
+.col-4 h2 {
+    margin-bottom: 25px;
+}
+
+.bg-primary {
+    margin-top: 50px;
+    height: 295px;
+    border-radius: 10px;
+}
+
+.col-3 h4 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.col-3, .col-8 {
+    float: left;
+}
+
+#form-rodape {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+form button {
+    width: 100%;
+}
+
+footer {
+    clear: both;
+}

@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: #FAFAFA;
+    font-family: 'Quicksand', sans-serif;
+}
+.icons {
+    color: #8BC34A;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 55px;  
+    margin-bottom: 0;  
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #003988;
+}
+h3 {
+    text-align: center;
+    color: #003988;
+    font-size: 30px;
+}
+
+h5 {
+    color: #424242;
+    text-align: center;
+}
+
+h6 {
+    color: #757575;
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 21px;
+}
+
+.btn-light {
+    background-color: #003988;
+    color: #FAFAFA;
+}
+
+li a:hover{
+    background-color: #BDBDBD;
+    border-radius: 5px;
+}
+a{
+    text-decoration:none;
+    display: block;
+}
+
+p a:hover{
+    background-color:#BDBDBD;
+    border-radius: 5px;
+}
+
+.servicos {
+    text-align: center;    
+}
+
+.links {
+    text-align: center;
+}
+
+.sobrenos {
+    text-align: left;
+}
+
+.contatos {
+    text-align: center;
+}
+
+p {    
+    text-align: 8px;
+    font-size: 20px;
+    margin-right: 20px;
+    
+}
+
+.parte-do-meio {
+    margin:auto;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 5px 5px;
+    box-shadow: 1px 1px 5px lightslategray;
+    height: 400px;
+    width: 350px;    
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.parte-do-meio:hover {
+    background-color: #003988;
+    transition: 0.6s;
+    color:#FAFAFA;
+}
+
+.lateral {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 5px 5px;
+    box-shadow: 1px 1px 5px lightslategray;
+    height: 400px;
+    width: 350px;    
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.lateral:hover {
+    background-color: #003988;
+    transition: 0.5s;
+    color:#FAFAFA;
+    
+}
+
+.esquerda {
+    margin:auto;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 5px 5px;
+    box-shadow: 1px 1px 5px lightslategray;
+    height: 400px;
+    width: 350px;    
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.esquerda:hover {
+    background-color: #003988;
+    transition: 0.5s;
+    color:#FAFAFA;
+}
+
+
+.direita {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 5px 5px 5px;
+    box-shadow: 1px 1px 5px lightslategray;
+    height: 400px;
+    width: 350px;    
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.direita:hover{
+    background-color: #003988;
+    transition: 0.5s;
+    color:#FAFAFA;
+}
+
+.navbar {
+    top: 0;    
+    position: fixed;
+    width: 100%; 
+    background-color: #FAFAFA;
+    box-shadow: 0px 0.5px 10px lightgray;
+}
+
+.imagem {
+    margin-top: 80px;
+}
+
+.form-switch {
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.escuro {    
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+
+.time {    
+    text-align: center;
+    margin-top: 40px;
+}
+
+.parallax {
+    background-image: url(../img/contato2.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-attachment: fixed;
+    color: black;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.footerbackground {
+    background-color: #e3e3e3;
+}
+
+#btn-whatsapp {
+    margin-right: 40px;
+}
